@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Srastr</title>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; background-color: #f8f9fa;">
+
+    <!-- Navigation Header -->
+    <header style="background-color: #0a192f; padding: 20px 10%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="color: #64ffda; font-size: 24px; font-weight: bold; letter-spacing: 1px;">Srastr<span style="color: #ffffff;">Technologies</span></div>
+        <nav>
+            <a href="home.html" style="color: #ffffff; text-decoration: none; margin-left: 20px; font-weight: 500; transition: 0.3s;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ffffff'">Home</a>
+            <a href="aboutus.html" style="color: #ffffff; text-decoration: none; margin-left: 20px; font-weight: 500; transition: 0.3s;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ffffff'">About Us</a>
+            <a href="contactus.html" style="color: #64ffda; text-decoration: none; margin-left: 20px; font-weight: 500;">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Subpage Banner -->
+    <section style="background-color: #0a192f; color: #ffffff; padding: 60px 10%; text-align: center;">
+        <h1 style="margin: 0; font-size: 36px;">Let's Connect</h1>
+        <p style="color: #8892b0; margin-top: 10px;">Ready to begin your digital acceleration transformation? Message our elite project team.</p>
+    </section>
+
+    <!-- Contact Panel Layout -->
+    <section style="padding: 80px 10%; display: flex; gap: 50px; flex-wrap: wrap; justify-content: center;">
+        
+        <!-- Contact Meta Information -->
+        <div style="flex: 1; min-width: 300px; max-width: 400px;">
+            <h2 style="color: #0a192f; font-size: 28px; margin-bottom: 30px;">Reach Out Directly</h2>
+            
+            <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+                <div style="font-size: 24px; margin-right: 15px;">📍</div>
+                <div>
+                    <h4 style="margin: 0 0 5px 0; color: #0a192f; font-size: 16px;">Corporate HQ</h4>
+                    <p style="margin: 0; color: #666; font-size: 14px; line-height: 1.4;">Srastr Technologies<br>46-709, Bhagath Singh Nagar, Jagadgirigutta, hyderabad, Telangana, India 500054</p>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+                <div style="font-size: 24px; margin-right: 15px;">✉️</div>
+                <div>
+                    <h4 style="margin: 0 0 5px 0; color: #0a192f; font-size: 16px;">Inquiries Email</h4>
+					<p><strong>Email:</strong><br><a href="mailto:shivashankarchimata@gmail.com" style="color: var(--maroon); text-decoration: none;">shivashankarchimata@gmail.com</a></p>
+                    <p><strong>Support Hours:</strong><br>Mon - Sat, 9:00 AM - 8:00 PM</p>                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Contact Form -->
+       <!--  <div style="flex: 2; min-width: 300px; max-width: 600px; background-color: #ffffff; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent successfully! Our project design leads will contact you shortly.');">
+                <div style="display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 200px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 500; font-size: 14px; color: #0a192f;">Full Name</label>
+                        <input type="text" required style="width: 100%; padding: 12px; border: 1px solid #ccd6f6; border-radius: 4px; box-sizing: border-box; outline: none; transition: 0.3s;" onfocus="this.style.borderColor='#0a192f'">
+                    </div>
+                    <div style="flex: 1; min-width: 200px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 500; font-size: 14px; color: #0a192f;">Corporate Email</label>
+                        <input type="email" required style="width: 100%; padding: 12px; border: 1px solid #ccd6f6; border-radius: 4px; box-sizing: border-box; outline: none; transition: 0.3s;" onfocus="this.style.borderColor='#0a192f'">
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; font-size: 14px; color: #0a192f;">Project Scope Overview</label>
+                    <select style="width: 100%; padding: 12px; border: 1px solid #ccd6f6; border-radius: 4px; box-sizing: border-box; outline: none; background-color: #fff;">
+                        <option>Web Platform Engineering</option>
+                        <option>Mobile Application Engineering</option>
+                        <option>Full-Stack Custom Pipeline Integration</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 30px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 500; font-size: 14px; color: #0a192f;">Message Description</label>
+                    <textarea rows="5" required style="width: 100%; padding: 12px; border: 1px solid #ccd6f6; border-radius: 4px; box-sizing: border-box; outline: none; resize: vertical; transition: 0.3s;" onfocus="this.style.borderColor='#0a192f'"></textarea>
+                </div>
+
+                <button type="submit" style="background-color: #0a192f; color: #64ffda; border: 1px solid #64ffda; width: 100%; padding: 15px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; transition: 0.3s;" onmouseover="this.style.backgroundColor='#172a45'" onmouseout="this.style.backgroundColor='#0a192f'">Transmit Architecture Query</button>
+            </form>
+        </div>-->
+
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #0a192f; color: #8892b0; padding: 40px 10%; text-align: center; border-top: 1px solid #233554;">
+        <p style="margin: 0; font-size: 14px;">&copy; 2026 Srastr Technologies. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
